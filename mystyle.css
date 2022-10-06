@@ -83,6 +83,8 @@
 #fonts a:hover{
     border: 1px solid black;
     background: rgb(240, 239, 239);
+    transform: scale(1.05);
+    transition: transform .6s ease;
     padding: 10px;
     border-radius: 20px;
     border: none;
@@ -98,6 +100,8 @@
     padding: 10px;
     border-radius: 40px;
     background: rgb(240, 239, 239);
+    transform: scale(1.05);
+    transition: transform .7s ease;
 }
 
 #link{
@@ -330,6 +334,26 @@
 }
 
 #image3 p{
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+
+#image5{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 10px;
+    opacity: 0.6;
+}
+
+#image5:hover{
+    color: rgb(27, 27, 27);
+    opacity: 1;
+    border-bottom: 2px solid rgb(230, 228, 228);
+}
+
+#image5 p{
     font-size: 12px;
     margin-top: 10px;
     font-weight: 600;
@@ -1101,6 +1125,60 @@ button i{
 
     .slider-icons{
         width: 20%;
+    }
+}
+
+@media(max-width:1280px){
+    #image5{
+        display: none;
+    }
+
+    #cardssection{
+        padding: 0 90px;
+    }
+
+    .card1 img{
+        width: 350px;
+    }
+
+    .card2 img{
+        width: 350px;
+    }
+
+    .card3 img{
+        width: 350px;
+    }
+
+    .card4 img{
+        width: 350px;
+    }
+
+    .card5 img{
+        width: 350px;
+    }
+
+    #image4{
+        margin-right: 0;
+    }
+
+    #image1{
+        margin-right: 0;
+    }
+
+    #image2{
+        margin-right: 0;
+    }
+
+    #image3{
+        margin-right: 0;
+    }
+
+    .slider-outer{
+        margin: 0;
+    }
+
+    #footspace{
+        padding: 0 12px;
     }
 }
 
