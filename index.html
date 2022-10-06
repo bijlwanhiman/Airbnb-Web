@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="mystyle.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container-fluid" id="topnav">
+            <div class="w-100 d-flex justify-content-between" id="width">
+                <div id="logo">
+                    <i class="fa-brands fa-airbnb"></i>
+                    <span>airbnb</span>
+                </div>
+
+                <div class="navlinks">
+                    <a href="#">Anywhere</a>|
+                    <a href="#">Any week</a>|
+                    <span>Add guests</span>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div id="fonts">
+                    <a href="#">Become a host</a>
+                    <i class="fa-solid fa-globe"></i>
+                    <div id="link">
+                        <i class="fa-solid fa-bars"></i>
+                        <span><i class="fa-solid fa-user"></i></span>
+                    </div>
+                </div>
+
+                <div id="responsivenav">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <div id="head">
+                        <p>Where to?</p>
+                        <a href="#">Anywhere</a>
+
+                        <a href="#" id="aicon">Any week</a>
+
+                        <a href="#" id="aicon">Add guests</a>
+                    </div>
+                    <span><i class="fa-solid fa-sliders"></i></span>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <hr id="hr">
+
+
+        <!--Icons Carousel-->
+        <div class="container-fluid" id="iconssection">
+            <div class="w-100 d-flex justify-content-around">
+                <div class="carousel slide" id="demo" data-bs-ride="carousel">
+                    <div class="carousel-inner" id="slider">
+                        <!--<i class="fa-solid fa-chevron-left carouicon"></i>-->
+                        <div class="carousel-item-active" id="image4">
+                            <img src="images/first.jpg" id="first">
+                            <p>OMG!</p>
+                        </div>
+                        <div class="carousel-item-active" id="image3">
+                            <img src="images/second.jpg" id="second">
+                            <p>National Parks</p>
+                        </div>
+                        <div class="carousel-item-active" id="image3">
+                            <img src="images/third.jpg" id="third">
+                            <p>Tiny Homes</p>
+                        </div>
+                        <div class="carousel-item-active" id="image3">
+                            <img src="images/forth.jpg" id="forth">
+                            <p>Arctic</p>
+                        </div>
+                        <div class="carousel-item-active" id="image3">
+                            <img src="images/fifth.jpg" id="fifth">
+                            <p>Shared Homes</p>
+                        </div>
+                        <div class="carousel-item-active" id="image2">
+                            <img src="images/sixth.jpg" id="sixth">
+                            <p>Islands</p>
+                        </div>
+                        <div class="carousel-item-active" id="image1">
+                            <img src="images/seventh.jpg" id="seventh">
+                            <p>Campervans</p>
+                        </div>
+                        <div class="carousel-item-active" id="image1">
+                            <img src="images/eighth.jpg" id="eighth">
+                            <p>Cabins</p>
+                        </div>
+                        <div class="carousel-item-active" id="image1">
+                            <img src="images/nineth.jpg" id="nineth">
+                            <p>Design</p>
+                        </div>
+                        <div class="carousel-item-active" id="image">
+                            <img src="images/tenth.jpg" id="tenth">
+                            <p>Amazing Pools</p>
+                        </div>
+                        <div class="carousel-item-active" id="image">
+                            <img src="images/eleven.jpg" id="eleven">
+                            <p>Lakefront</p>
+                        </div>
+                        <div class="carousel-item-active" id="image">
+                            <img src="images/twelve.jpg" id="twelve">
+                            <p>Surfing</p>
+                        </div>
+                        <!--<i class="fa-solid fa-chevron-right carouicon"></i>-->
+                        <div class="carousel-item-active" id="image0">
+                            <img src="images/thirteen.jpg" id="thirteen">
+                            <p>A-frames</p>
+                        </div>
+                        <div class="carousel-item-active" id="image0">
+                            <img src="images/forteen.jpg" id="forteen">
+                            <p>Treehouses</p>
+                        </div>
+                        <div class="carousel-item-active" id="image0">
+                            <img src="images/fifteen.jpg" id="fifteen">
+                            <p>Tropical</p>
+                        </div>
+                        <div class="carousel-item" id="image">
+                            <img src="images/nineth.jpg" id="nineth">
+                            <p>Design</p>
+                        </div>
+                        <div class="carousel-item" id="image">
+                            <img src="images/tenth.jpg" id="tenth">
+                            <p>Amazing Pools</p>
+                        </div>
+                        <div class="carousel-item" id="image">
+                            <img src="images/eleven.jpg" id="eleven">
+                            <p>Lakefront</p>
+                        </div>
+                        <div class="carousel-item" id="image">
+                            <img src="images/twelve.jpg" id="twelve">
+                            <p>Surfing</p>
+                        </div>
+                        <div class="carousel-item" id="image">
+                            <img src="images/thirteen.jpg" id="thirteen">
+                            <p>A-frames</p>
+                        </div>
+                        <div class="carousel-item" id="image">
+                            <img src="images/forteen.jpg" id="forteen">
+                            <p>Treehouses</p>
+                        </div>
+                        <div class="carousel-item" id="image">
+                            <img src="images/fifteen.jpg" id="fifteen">
+                            <p>Tropical</p>
+                        </div>
+
+                        <button class="filter">
+                            <i class="fa-solid fa-sliders"></i>
+                            <a href="#">Filters</a>
+                        </button>
+
+                        <!--<button class="carousel-control-prev justify-content-start" type="button" data-bs-slide="prev" data-bs-target="#demo">
+                <span class="carousel-control-prev-icon" aria-hidden="true" id="prevbtn"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+    
+            <button class="carousel-control-next justify-content-end" type="button" data-bs-slide="next" data-bs-target="#demo">
+                <span class="carousel-control-next-icon" aria-hidden="true" id="nextbtn"></span>
+                <span class="visually-hidden">Next</span>
+            </button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <hr id="hr2">
+
+
+    <!--card carousel-->
+    <div class="container-fluid" id="cardssection">
+        <div class="slider-outer">
+            <div class="slider-icons">
+                <i class="fa-solid fa-chevron-left prev"></i>
+                <i class="fa-solid fa-chevron-right next1"></i>
+            </div>
+            <div class="card1">
+                <img src="images/image1.webp" class="1 active">
+                <img src="images/firstcarousel.webp" class="1">
+                <img src="images/firstcarousel2.webp" class="1">
+                <img src="images/firstcarousel3.webp" class="1">
+                <img src="images/firstcarousel4.webp" class="1">
+                <img src="images/firstcarousel5.webp" class="1">
+                <img src="images/firstcarousel6.webp" class="1">
+                <img src="images/fifthcarousel5.webp" class="1">
+                <img src="images/fifthcarousel6.webp" class="1">
+
+                <div id="rating">
+                    <p>Sindun-myeon, Icheon-si, South ko...</p>
+                    <i class="fa-solid fa-star">4.8</i>
+                </div>
+                <a class="text-muted">4,726 kilometres</a>
+                <p class="text-muted m-0">3-8 Oct</p>
+                <div class="mt-2"><a>&#8377;5,903 night</a></div>
+
+                <!--<div>
+                    <i class="fa-solid fa-heart" id="icon"></i>
+                </div>-->
+
+                <!--<div>
+                    <i class="fa-solid fa-chevron-right next1" id="next"></i>
+                </div>-->
+            </div>
+
+        </div>
+        <!--<div class="cardcarousel">
+                <img src="images/firstcarousel.webp">
+            </div>
+            <div class="cardcarousel">
+                <img src="images/firstcarousel2.webp">
+            </div>
+            <div class="cardcarousel">
+                <img src="images/firstcarousel3.webp">
+            </div>
+            <div class="cardcarousel">
+                <img src="images/firstcarousel4.webp">
+            </div>-->
+
+        <div class="slider-outer">
+            <div class="slider-icons">
+                <i class="fa-solid fa-chevron-left prev"></i>
+                <i class="fa-solid fa-chevron-right next1"></i>
+            </div>
+            <div class="card2">
+                <img src="images/snow.webp" class="1 active">
+                <img src="images/secondcarousel1.webp" class="1">
+                <img src="images/secondcarousel2.webp" class="1">
+                <img src="images/secondcarousel3.webp" class="1">
+                <img src="images/secondcarousel4.webp" class="1">
+                <img src="images/secondcarousel5.webp" class="1">
+                <img src="images/secondcarousel6.webp" class="1">
+                <img src="images/thirdcarousel4.webp" class="1">
+                <img src="images/thirdcarousel5.webp" class="1">
+
+                <div id="rating">
+                    <p>Pelkosenniemi, Finland</p>
+                    <i class="fa-solid fa-star">4.81</i>
+                </div>
+                <a class="text-muted">5,407 kilometres</a>
+                <p class="text-muted m-0">3-8 Oct</p>
+                <div class="mt-2"><a>&#8377;3,905 night</a></div>
+            </div>
+
+        </div>
+
+        <!--<div>
+                <i class="fa-solid fa-heart" id="icon2"></i>
+            </div>-->
+
+        <div class="slider-outer">
+            <div class="slider-icons">
+                <i class="fa-solid fa-chevron-left prev"></i>
+                <i class="fa-solid fa-chevron-right next1"></i>
+            </div>
+            <div class="card3">
+                <img src="images/forest.webp" class="1 active">
+                <img src="images/thirdcarousel1.webp" class="1">
+                <img src="images/thirdcarousel2.webp" class="1">
+                <img src="images/thirdcarousel3.webp" class="1">
+                <img src="images/thirdcarousel4.webp" class="1">
+                <img src="images/thirdcarousel5.webp" class="1">
+                <img src="images/thirdcarousel6.webp" class="1">
+                <img src="images/forthcarousel5.webp" class="1">
+                <img src="images/forthcarousel6.webp" class="1">
+                <div id="rating">
+                    <p>Tambon Nong Kae, Thailand</p>
+                    <i class="fa-solid fa-star">4.9</i>
+                </div>
+                <a class="text-muted">4,726 kilometres</a>
+                <p class="text-muted m-0">3-8 Oct</p>
+                <div class="mt-2"><a>&#8377;4,120 night</a></div>
+            </div>
+            <!--<div>
+            <i class="fa-solid fa-heart" id="icon3"></i>
+        </div>-->
+        </div>
+
+        <div class="slider-outer">
+            <div class="slider-icons">
+                <i class="fa-solid fa-chevron-left prev"></i>
+                <i class="fa-solid fa-chevron-right next1"></i>
+            </div>
+            <div class="card4">
+                <img src="images/beach.webp" class="1 active">
+                <img src="images/forthcarousel1.webp" class="1">
+                <img src="images/forthcarousel2.webp" class="1">
+                <img src="images/forthcarousel3.webp" class="1">
+                <img src="images/forthcarousel4.webp" class="1">
+                <img src="images/forthcarousel5.webp" class="1">
+                <img src="images/forthcarousel6.webp" class="1">
+                <div id="rating">
+                    <p>El Nido, Philippines</p>
+                    <i class="fa-solid fa-star">4.96</i>
+                </div>
+                <a class="text-muted">4,726 kilometres</a>
+                <p class="text-muted m-0">3-8 Oct</p>
+                <div class="mt-2"><a>&#8377;5,000 night</a></div>
+
+                <!--<div>
+        <i class="fa-solid fa-heart" id="icon4"></i>
+        </div>-->
+            </div>
+        </div>
+
+        <div class="slider-outer">
+            <div class="slider-icons">
+                <i class="fa-solid fa-chevron-left prev"></i>
+                <i class="fa-solid fa-chevron-right next1"></i>
+            </div>
+            <div class="card5">
+                <img src="images/glass.webp" class="1 active">
+                <img src="images/fifthcarousel1.webp" class="1">
+                <img src="images/fifthcarousel2.webp" class="1">
+                <img src="images/fifthcarousel3.webp" class="1">
+                <img src="images/fifthcarousel4.webp" class="1">
+                <img src="images/fifthcarousel5.webp" class="1">
+                <img src="images/fifthcarousel6.webp" class="1">
+                <div id="rating">
+                    <p>Thành phố Nha Trang, Vietnam</p>
+                    <i class="fa-solid fa-star">4.6</i>
+                </div>
+                <a class="text-muted">4,726 kilometres</a>
+                <p class="text-muted m-0">3-8 Oct</p>
+                <div class="mt-2"><a>&#8377;5,903 night</a></div>
+
+                <!--<div id="icon5">
+        <i class="fa-solid fa-heart"></i>
+    </div>-->
+            </div>
+        </div>
+
+        <div class="slider-outer">
+            <div class="slider-icons">
+                <i class="fa-solid fa-chevron-left prev"></i>
+                <i class="fa-solid fa-chevron-right next1"></i>
+            </div>
+            <div class="card1">
+                <img src="images/stone.webp" class="1 active">
+                <img src="images/firstcarousel.webp" class="1">
+                <img src="images/firstcarousel2.webp" class="1">
+                <img src="images/firstcarousel3.webp" class="1">
+                <img src="images/firstcarousel4.webp" class="1">
+                <img src="images/firstcarousel5.webp" class="1">
+                <img src="images/firstcarousel6.webp" class="1">
+                <div id="rating">
+                    <p>Sindun-myeon, Icheon-si, South ko...</p>
+                    <i class="fa-solid fa-star">4.8</i>
+                </div>
+                <a class="text-muted">4,726 kilometres</a>
+                <p class="text-muted m-0">3-8 Oct</p>
+                <div class="mt-2"><a>&#8377;5,903 night</a></div>
+
+                <!--<div id="icon">
+                <i class="fa-solid fa-heart"></i>
+            </div>-->
+            </div>
+        </div>
+
+        <div class="slider-outer">
+            <div class="slider-icons">
+                <i class="fa-solid fa-chevron-left prev"></i>
+                <i class="fa-solid fa-chevron-right next1"></i>
+            </div>
+            <div class="card2">
+                <img src="images/iglu.webp" class="1 active">
+                <img src="images/secondcarousel1.webp" class="1">
+                <img src="images/secondcarousel2.webp" class="1">
+                <img src="images/secondcarousel3.webp" class="1">
+                <img src="images/secondcarousel4.webp" class="1">
+                <img src="images/secondcarousel5.webp" class="1">
+                <img src="images/secondcarousel6.webp" class="1">
+                <div id="rating">
+                    <p>Pelkosenniemi, Finland</p>
+                    <i class="fa-solid fa-star">4.81</i>
+                </div>
+                <a class="text-muted">5,407 kilometres</a>
+                <p class="text-muted m-0">3-8 Oct</p>
+                <div class="mt-2"><a>&#8377;5,903 night</a></div>
+
+                <!--<div id="icon2">
+            <i class="fa-solid fa-heart"></i>
+        </div>-->
+            </div>
+        </div>
+
+        <div class="slider-outer">
+            <div class="slider-icons">
+                <i class="fa-solid fa-chevron-left prev"></i>
+                <i class="fa-solid fa-chevron-right next1"></i>
+            </div>
+            <div class="card3">
+                <img src="images/windmill.webp" class="1 active">
+                <img src="images/thirdcarousel1.webp" class="1">
+                <img src="images/thirdcarousel2.webp" class="1">
+                <img src="images/thirdcarousel3.webp" class="1">
+                <img src="images/thirdcarousel4.webp" class="1">
+                <img src="images/thirdcarousel5.webp" class="1">
+                <img src="images/thirdcarousel6.webp" class="1">
+                <div id="rating">
+                    <p>Tambon Nong Kae, Thailand</p>
+                    <i class="fa-solid fa-star">4.9</i>
+                </div>
+                <a class="text-muted">4,726 kilometres</a>
+                <p class="text-muted m-0">3-8 Oct</p>
+                <div class="mt-2"><a>&#8377;5,903 night</a></div>
+
+                <!--<div id="icon3">
+        <i class="fa-solid fa-heart"></i>
+    </div>-->
+            </div>
+        </div>
+
+        <div class="slider-outer">
+            <div class="slider-icons">
+                <i class="fa-solid fa-chevron-left prev"></i>
+                <i class="fa-solid fa-chevron-right next1"></i>
+            </div>
+            <div class="card4">
+                <img src="images/garden.webp" class="1 active">
+                <img src="images/forthcarousel1.webp" class="1">
+                <img src="images/forthcarousel2.webp" class="1">
+                <img src="images/forthcarousel3.webp" class="1">
+                <img src="images/forthcarousel4.webp" class="1">
+                <img src="images/forthcarousel5.webp" class="1">
+                <img src="images/forthcarousel6.webp" class="1">
+                <div id="rating">
+                    <p>El Nido, Philippines</p>
+                    <i class="fa-solid fa-star">4.96</i>
+                </div>
+                <a class="text-muted">4,726 kilometres</a>
+                <p class="text-muted m-0">3-8 Oct</p>
+                <div class="mt-2"><a>&#8377;5,903 night</a></div>
+
+                <!--<div id="icon4">
+    <i class="fa-solid fa-heart"></i>
+    </div>-->
+            </div>
+        </div>
+
+        <div class="slider-outer">
+            <div class="slider-icons">
+                <i class="fa-solid fa-chevron-left prev"></i>
+                <i class="fa-solid fa-chevron-right next1"></i>
+            </div>
+            <div class="card5">
+                <img src="images/bottle.webp" class="1 active">
+                <img src="images/fifthcarousel1.webp" class="1">
+                <img src="images/fifthcarousel2.webp" class="1">
+                <img src="images/fifthcarousel3.webp" class="1">
+                <img src="images/fifthcarousel4.webp" class="1">
+                <img src="images/fifthcarousel5.webp" class="1">
+                <img src="images/fifthcarousel6.webp" class="1">
+                <div id="rating">
+                    <p>Thành phố Nha Trang, Vietnam</p>
+                    <i class="fa-solid fa-star">4.6</i>
+                </div>
+                <a class="text-muted">4,726 kilometres</a>
+                <p class="text-muted m-0">3-8 Oct</p>
+                <div class="mt-2"><a>&#8377;5,903 night</a></div>
+
+                <!--<div id="icon5">
+    <i class="fa-solid fa-heart"></i>
+</div>-->
+            </div>
+        </div>
+
+
+        <div class="slider-outer">
+            <div class="slider-icons">
+                <i class="fa-solid fa-chevron-left prev"></i>
+                <i class="fa-solid fa-chevron-right next1"></i>
+            </div>
+            <div class="card1">
+                <img src="images/house1.webp" class="1 active">
+                <img src="images/firstcarousel.webp" class="1">
+                <img src="images/firstcarousel2.webp" class="1">
+                <img src="images/firstcarousel3.webp" class="1">
+                <img src="images/firstcarousel4.webp" class="1">
+                <img src="images/firstcarousel5.webp" class="1">
+                <img src="images/firstcarousel6.webp" class="1">
+                <div id="rating">
+                    <p>Sindun-myeon, Icheon-si, South ko...</p>
+                    <i class="fa-solid fa-star">4.8</i>
+                </div>
+                <a class="text-muted">4,726 kilometres</a>
+                <p class="text-muted m-0">3-8 Oct</p>
+                <div class="mt-2"><a>&#8377;5,903 night</a></div>
+
+                <!--<div id="icon">
+                <i class="fa-solid fa-heart"></i>
+            </div>-->
+            </div>
+        </div>
+
+        <div class="slider-outer">
+            <div class="slider-icons">
+                <i class="fa-solid fa-chevron-left prev"></i>
+                <i class="fa-solid fa-chevron-right next1"></i>
+            </div>
+            <div class="card2">
+                <img src="images/room.webp" class="1 active">
+                <img src="images/secondcarousel1.webp" class="1">
+                <img src="images/secondcarousel2.webp" class="1">
+                <img src="images/secondcarousel3.webp" class="1">
+                <img src="images/secondcarousel4.webp" class="1">
+                <img src="images/secondcarousel5.webp" class="1">
+                <img src="images/secondcarousel6.webp" class="1">
+                <div id="rating">
+                    <p>Pelkosenniemi, Finland</p>
+                    <i class="fa-solid fa-star ">4.81</i>
+                </div>
+                <a class="text-muted">5,407 kilometres</a>
+                <p class="text-muted m-0">3-8 Oct</p>
+                <div class="mt-2"><a>&#8377;5,903 night</a></div>
+
+                <!--<div id="icon2">
+            <i class="fa-solid fa-heart"></i>
+        </div>-->
+            </div>
+        </div>
+
+
+        <div class="slider-outer">
+            <div class="slider-icons">
+                <i class="fa-solid fa-chevron-left prev"></i>
+                <i class="fa-solid fa-chevron-right next1"></i>
+            </div>
+            <div class="card3">
+                <img src="images/guitar.webp" class="1 active">
+                <img src="images/thirdcarousel1.webp" class="1">
+                <img src="images/thirdcarousel2.webp" class="1">
+                <img src="images/thirdcarousel3.webp" class="1">
+                <img src="images/thirdcarousel4.webp" class="1">
+                <img src="images/thirdcarousel5.webp" class="1">
+                <img src="images/thirdcarousel6.webp" class="1">
+                <div id="rating">
+                    <p>Tambon Nong Kae, Thailand</p>
+                    <i class="fa-solid fa-star">4.9</i>
+                </div>
+                <a class="text-muted">4,726 kilometres</a>
+                <p class="text-muted m-0">3-8 Oct</p>
+                <div class="mt-2"><a>&#8377;5,903 night</a></div>
+
+                <!--<div id="icon3">
+        <i class="fa-solid fa-heart"></i>
+    </div>-->
+            </div>
+        </div>
+
+
+        <div class="slider-outer">
+            <div class="slider-icons">
+                <i class="fa-solid fa-chevron-left prev"></i>
+                <i class="fa-solid fa-chevron-right next1"></i>
+            </div>
+            <div class="card4">
+                <img src="images/open.webp" class="1 active">
+                <img src="images/forthcarousel1.webp" class="1">
+                <img src="images/forthcarousel2.webp" class="1">
+                <img src="images/forthcarousel3.webp" class="1">
+                <img src="images/forthcarousel4.webp" class="1">
+                <img src="images/forthcarousel5.webp" class="1">
+                <img src="images/forthcarousel6.webp" class="1">
+                <div id="rating">
+                    <p>El Nido, Philippines</p>
+                    <i class="fa-solid fa-star">4.96</i>
+                </div>
+                <a class="text-muted">4,726 kilometres</a>
+                <p class="text-muted m-0">3-8 Oct</p>
+                <div class="mt-2"><a>&#8377;5,903 night</a></div>
+
+                <!--<div id="icon4">
+    <i class="fa-solid fa-heart"></i>
+    </div>-->
+            </div>
+        </div>
+
+
+        <div class="slider-outer">
+            <div class="slider-icons">
+                <i class="fa-solid fa-chevron-left prev"></i>
+                <i class="fa-solid fa-chevron-right next1"></i>
+            </div>
+            <div class="card5">
+                <img src="images/pyramid.webp" class="1 active">
+                <img src="images/fifthcarousel1.webp" class="1">
+                <img src="images/fifthcarousel2.webp" class="1">
+                <img src="images/fifthcarousel3.webp" class="1">
+                <img src="images/fifthcarousel4.webp" class="1">
+                <img src="images/fifthcarousel5.webp" class="1">
+                <img src="images/fifthcarousel6.webp" class="1">
+                <div id="rating">
+                    <p>Thành phố Nha Trang, Vietnam</p>
+                    <i class="fa-solid fa-star">4.6</i>
+                </div>
+                <a class="text-muted">4,726 kilometres</a>
+                <p class="text-muted m-0">3-8 Oct</p>
+                <div class="mt-2"><a>&#8377;5,903 night</a></div>
+
+                <!--<div id="icon5">
+    <i class="fa-solid fa-heart"></i>
+</div>-->
+            </div>
+        </div>
+
+        <div class="slider-outer">
+            <div class="slider-icons">
+                <i class="fa-solid fa-chevron-left prev"></i>
+                <i class="fa-solid fa-chevron-right next1"></i>
+            </div>
+            <div class="card1">
+                <img src="images/purple.webp" class="1 active">
+                <img src="images/firstcarousel.webp" class="1">
+                <img src="images/firstcarousel2.webp" class="1">
+                <img src="images/firstcarousel3.webp" class="1">
+                <img src="images/firstcarousel4.webp" class="1">
+                <img src="images/firstcarousel5.webp" class="1">
+                <img src="images/firstcarousel6.webp" class="1">
+                <div id="rating">
+                    <p>Sindun-myeon, Icheon-si, South ko...</p>
+                    <i class="fa-solid fa-star">4.8</i>
+                </div>
+                <a class="text-muted">4,726 kilometres</a>
+                <p class="text-muted m-0">3-8 Oct</p>
+                <div class="mt-2"><a>&#8377;5,903 night</a></div>
+
+                <!--<div id="icon">
+                <i class="fa-solid fa-heart"></i>
+            </div>-->
+            </div>
+        </div>
+
+
+        <div class="slider-outer">
+            <div class="slider-icons">
+                <i class="fa-solid fa-chevron-left prev"></i>
+                <i class="fa-solid fa-chevron-right next1"></i>
+            </div>
+            <div class="card2">
+                <img src="images/rocks.webp" class="1 active">
+                <img src="images/secondcarousel1.webp" class="1">
+                <img src="images/secondcarousel2.webp" class="1">
+                <img src="images/secondcarousel3.webp" class="1">
+                <img src="images/secondcarousel4.webp" class="1">
+                <img src="images/secondcarousel5.webp" class="1">
+                <img src="images/secondcarousel6.webp" class="1">
+                <div id="rating">
+                    <p>Pelkosenniemi, Finland</p>
+                    <i class="fa-solid fa-star">4.81</i>
+                </div>
+                <a class="text-muted">5,407 kilometres</a>
+                <p class="text-muted m-0">3-8 Oct</p>
+                <div class="mt-2"><a>&#8377;5,903 night</a></div>
+
+                <!--<div id="icon2">
+            <i class="fa-solid fa-heart"></i>
+        </div>-->
+            </div>
+        </div>
+
+
+        <div class="slider-outer">
+            <div class="slider-icons">
+                <i class="fa-solid fa-chevron-left prev"></i>
+                <i class="fa-solid fa-chevron-right next1"></i>
+            </div>
+            <div class="card3">
+                <img src="images/wood.webp" class="1 active">
+                <img src="images/thirdcarousel1.webp" class="1">
+                <img src="images/thirdcarousel2.webp" class="1">
+                <img src="images/thirdcarousel3.webp" class="1">
+                <img src="images/thirdcarousel4.webp" class="1">
+                <img src="images/thirdcarousel5.webp" class="1">
+                <img src="images/thirdcarousel6.webp" class="1">
+                <div id="rating">
+                    <p>Tambon Nong Kae, Thailand</p>
+                    <i class="fa-solid fa-star">4.9</i>
+                </div>
+                <a class="text-muted">4,726 kilometres</a>
+                <p class="text-muted m-0">3-8 Oct</p>
+                <div class="mt-2"><a>&#8377;5,903 night</a></div>
+
+                <!--<div id="icon3">
+        <i class="fa-solid fa-heart"></i>
+    </div>-->
+            </div>
+        </div>
+
+
+        <div class="slider-outer">
+            <div class="slider-icons">
+                <i class="fa-solid fa-chevron-left prev"></i>
+                <i class="fa-solid fa-chevron-right next1"></i>
+            </div>
+            <div class="card4">
+                <img src="images/boat.webp" class="1 active">
+                <img src="images/forthcarousel1.webp" class="1">
+                <img src="images/forthcarousel2.webp" class="1">
+                <img src="images/forthcarousel3.webp" class="1">
+                <img src="images/forthcarousel4.webp" class="1">
+                <img src="images/forthcarousel5.webp" class="1">
+                <img src="images/forthcarousel6.webp" class="1">
+                <div id="rating">
+                    <p>El Nido, Philippines</p>
+                    <i class="fa-solid fa-star">4.96</i>
+                </div>
+                <a class="text-muted">4,726 kilometres</a>
+                <p class="text-muted m-0">3-8 Oct</p>
+                <div class="mt-2"><a>&#8377;5,903 night</a></div>
+
+                <!--<div id="icon4">
+    <i class="fa-solid fa-heart"></i>
+    </div>-->
+            </div>
+        </div>
+
+
+        <div class="slider-outer">
+            <div class="slider-icons">
+                <i class="fa-solid fa-chevron-left prev"></i>
+                <i class="fa-solid fa-chevron-right next1"></i>
+            </div>
+            <div class="card5">
+                <img src="images/grass.webp" class="1 active">
+                <img src="images/fifthcarousel1.webp" class="1">
+                <img src="images/fifthcarousel2.webp" class="1">
+                <img src="images/fifthcarousel3.webp" class="1">
+                <img src="images/fifthcarousel4.webp" class="1">
+                <img src="images/fifthcarousel5.webp" class="1">
+                <img src="images/fifthcarousel6.webp" class="1">
+                <div id="rating">
+                    <p>Thành phố Nha Trang, Vietnam</p>
+                    <i class="fa-solid fa-star">4.6</i>
+                </div>
+                <a class="text-muted">4,726 kilometres</a>
+                <p class="text-muted m-0">3-8 Oct</p>
+                <div class="mt-2">
+                    <a>&#8377;5,903 night</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="show">
+        <button type="button">Show map <i class="fa-solid fa-map"></i></button>
+    </div>
+
+
+    <!--slider
+    <div id="Indicators" class="carousel slide bg-info" data-bs-ride="carousel">
+        <div class="carousel-inner d-flex">
+          <div class="carousel-item-active" id="image">
+            <img src="images/eighth.jpg" id="eighth">
+            <p>Cabins</p>
+        </div>
+        <div class="carousel-item-active" id="image">
+            <img src="images/nineth.jpg" id="nineth">
+            <p>Design</p>
+        </div>
+        <div class="carousel-item-active" id="image">
+            <img src="images/tenth.jpg" id="tenth">
+            <p>Amazing Pools</p>
+        </div>
+        <div class="carousel-item-active" id="image">
+            <img src="images/eleven.jpg" id="eleven">
+            <p>Lakefront</p>
+        </div>
+        <div class="carousel-item-active" id="image">
+            <img src="images/twelve.jpg" id="twelve">
+            <p>Surfing</p>
+        </div>
+        <div class="carousel-item-active" id="image">
+            <img src="images/nineth.jpg" id="nineth">
+            <p>Design</p>
+        </div>
+        <div class="carousel-item-active" id="image">
+            <img src="images/tenth.jpg" id="tenth">
+            <p>Amazing Pools</p>
+        </div>
+        <div class="carousel-item-active" id="image">
+            <img src="images/eleven.jpg" id="eleven">
+            <p>Lakefront</p>
+        </div>
+        <div class="carousel-item-active" id="image">
+            <img src="images/twelve.jpg" id="twelve">
+            <p>Surfing</p>
+        </div>
+        <div class="carousel-item" id="image">
+            <img src="images/thirteen.jpg" id="thirteen">
+            <p>A-frames</p>
+        </div>
+        <div class="carousel-item" id="image">
+            <img src="images/forteen.jpg" id="forteen">
+            <p>Treehouses</p>
+        </div>
+        <div class="carousel-item" id="image">
+            <img src="images/fifteen.jpg" id="fifteen">
+            <p>Tropical</p>
+        </div>
+        <div class="carousel-item" id="image">
+            <img src="images/fifteen.jpg" id="fifteen">
+            <p>Tropical</p>
+        </div>
+        <div class="carousel-item" id="image">
+            <img src="images/fifteen.jpg" id="fifteen">
+            <p>Tropical</p>
+        </div>
+        <div class="carousel-item" id="image">
+            <img src="images/fifteen.jpg" id="fifteen">
+            <p>Tropical</p>
+        </div>
+        <div class="carousel-item" id="image">
+            <img src="images/fifteen.jpg" id="fifteen">
+            <p>Tropical</p>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#Indicators">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#Indicators">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>-->
+      
+
+
+
+    <!--Footer Section-->
+    <div class="container-fluid" id="footsection">
+        <div class="container justify-content-between" id="footspace">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div id="footinfo">
+                        <h5>Support</h5>
+                        <div id="para">
+                            <p>Help Center</p>
+                            <p>AirCover</p>
+                            <p>Safety Information</p>
+                            <p>Supporting people with disabilities</p>
+                            <p>Cancellation options</p>
+                            <p>Our COVID-19 Response</p>
+                            <p>Report a neighbourhood concern</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <div id="footinfo">
+                        <h5>Community</h5>
+                        <div id="para">
+                            <p>Airbnb.org: disaster relief housing</p>
+                            <p>Support Afghan refugees</p>
+                            <p>Combating discrimination</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <div id="footinfo">
+                        <h5>Hosting</h5>
+                        <div id="para">
+                            <p>TRy hosting</p>
+                            <p>Aircover for Hosts</p>
+                            <p>Explore hosting resources</p>
+                            <p>Visit our community forum</p>
+                            <p>How to host responsibly</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <div id="footinfo">
+                        <h5>Airbnb</h5>
+                        <div id="para">
+                            <p>Newsroom</p>
+                            <p>Learn about new features</p>
+                            <p>Letter from our founders</p>
+                            <p>Careers</p>
+                            <p>Investors</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr id="hr">
+
+        <div class="row" id="row1">
+            <div class="col-12 d-flex justify-content-between" id="copy">
+                <div id="footer">
+                    <span> &copy; 2022 Airbnb, Inc.
+                        <a>privacy</a>
+                        <a>Terms</a>
+                        <a>Sitemap</a>
+                        <a>Company details</a>
+                        <a>Destinations</a></span>
+                </div>
+                <div id="rightside">
+                    <i class="fa-solid fa-globe"></i>
+                    <p>English (IN)</p>
+                    <p> &#x20B9 INR</p>
+                    <p>Support & Resources</p>
+                    <i class="fa-solid fa-chevron-up" id="clickbtn"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="responsivefooter">
+        <div id="footericons">
+            <a class="firsticonf"><i class="fa-solid fa-magnifying-glass"></i>
+                <p>
+                    Explore
+                </p>
+            </a>
+            <a class="secondiconf"><i class="fa-regular fa-heart"></i>
+                <p>
+                    Wishlists
+                </p>
+            </a>
+            <a class="thirdiconf"><i class="fa-regular fa-user"></i>
+                <p>
+                    Log in
+                </p>
+            </a>
+        </div>
+    </div>
+
+    <!--Jquery-->
+    <script>
+        $(document).ready(function(){
+  $("#clickbtn").click( function(){
+    $("#footspace").slideToggle("slow");
+  });
+});
+
+        //First Card Carousel
+        $(document).ready(function () {
+            $('.next1').click(function () {
+                var currentImg = $(this).parent().parent().find('img.active');
+                var nextImg = currentImg.next('.1');
+
+                if (nextImg.length) {
+                    currentImg.removeClass('active');
+                    nextImg.addClass('active');
+                }
+                else {
+                    currentImg.removeClass('active');
+                    $('.1:first-child').addClass('active');
+                }
+            });
+
+            $('.prev').click(function () {
+                var currentImg = $(this).parent().parent().find('img.active');
+                var prevImg = currentImg.prev('.1');
+
+                if (prevImg.length) {
+                    currentImg.removeClass('active');
+                    prevImg.addClass('active');
+                }
+                else {
+                    currentImg.removeClass('active');
+                    $('.1:first-child').addClass('active');
+                }
+            });
+        });
+
+
+
+
+        /*$(document).ready(function () {
+            $('.next22').click(function () {
+                var currentImg = $(this).parent().parent().find('image active')
+                var nextImg = currentImg.next();
+
+                if (nextImg.length) {
+                    currentImg.removeClass('active');
+                    nextImg.addClass('active');
+                }
+                else{
+                    currentImg.removeClass('active');
+                    $('.image:first-child').addClass('active');
+                }
+            });
+
+            $('.prev22').click(function () {
+                var currentImg = $(this).parent().parent().find('image active');
+                var prevImg = currentImg.prev();
+
+                if (prevImg.length) {
+                    console.log("checked");
+                    currentImg.removeClass('active');
+                    prevImg.addClass('active');
+                }
+                else{
+                    currentImg.removeClass('active');
+                    $('.image:last-child').addClass('active');
+                }
+            });
+        });*/
+
+
+
+
+
+    </script>
+
+
+
+    <!---owl carousel
+    <div class="container-fluid">
+        <div class="w-100 d-flex justify-content-around">
+    <div class="owl-carousel owl-theme">
+        <div class="item" id="image">
+            <img src="images/first.jpg" id="first">
+            <p>OMG!</p>
+        </div>
+        <div class="item" id="image">
+            <img src="images/second.jpg" id="second">
+            <p>Tiny Homes</p>
+        </div>
+        <div class="item" id="image">
+            <img src="images/third.jpg" id="third">
+            <p>Arctic</p>
+        </div>
+        <div class="item" id="image">
+            <img src="images/forth.jpg" id="forth">
+            <p>Shared Homes</p>
+        </div>
+        <div class="item" id="image">
+            <img src="images/fifth.jpg" id="fifth">
+            <p>Islands</p>
+        </div>
+        <div class="item" id="image">
+            <img src="images/sixth.jpg" id="sixth">
+            <p>Campervans</p>
+        </div>
+        <div class="item" id="image">
+            <img src="images/seventh.jpg" id="seventh">
+            <p>Cabins</p>
+        </div>
+        <div class="item" id="image">
+            <img src="images/eighth.jpg" id="eighth">
+            <p>Design</p>
+        </div>
+        <div class="item" id="image">
+            <img src="images/nineth.jpg" id="nineth">
+            <p>Amazing pools</p>
+        </div>
+        <div class="item" id="image">
+            <img src="images/tenth.jpg" id="tenth">
+            <p>Lakefront</p>
+        </div>
+        <div class="item" id="image">
+            <img src="images/eleven.jpg" id="eleven">
+            <p>Surfing</p>
+        </div>
+        <div class="item" id="image">
+            <img src="images/twelve.jpg" id="twelve">
+            <p>A-frames</p>
+        </div>
+    </div>
+    </div>
+    </div>-->
+
+
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:5,
+    nav:true,
+    responsive:{
+        0:{
+            items:3
+        },
+        600:{
+            items:6
+        },
+        800:{
+            items:8
+        },
+        1000:{
+            items:12
+        }
+    }
+})
+</script>-->
+
+
+
+    <!--Css flexbox
+<section>
+    <div class="container-fluid">
+        <div class="card1">1</div>
+        <div class="card1">2</div>
+        <div class="card1">3</div>
+        <div class="card1">4</div>
+        <div class="card1">5</div>
+        <div class="card1">6</div>
+        <div class="card1">7</div>
+        <div class="card1">8</div>
+        <div class="card1">9</div>
+        <div class="card1">10</div>
+        <div class="card1">11</div>
+        <div class="card1">12</div>
+        <div class="card1">13</div>
+        <div class="card1">14</div>
+        <div class="card1">15</div>
+    </div>
+</section>-->
+
+
+
+    <!--<div class="container">
+        <div class="slider-outerr">
+            <i class="fa-solid fa-chevron-left prev22"></i>
+            <div class="slider-innerr">
+                <img src="images/firstcarousel.webp" class="image active">
+                <img src="images/firstcarousel2.webp" class="image">
+                <img src="images/firstcarousel3.webp" class="image">
+                <img src="images/firstcarousel4.webp" class="image">
+                <img src="images/firstcarousel5.webp" class="image">
+                <img src=" images/firstcarousel6.webp" class="image">
+            </div>
+            <i class="fa-solid fa-chevron-right next22"></i>
+        </div>
+    </div>-->
+</body>
+
+</html>
