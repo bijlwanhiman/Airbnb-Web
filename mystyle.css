@@ -33,26 +33,43 @@
 }
 
 .navlinks{
-    border: 1px solid black;
+    border: 1px solid rgb(209, 209, 209);
     border-radius: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    border: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+    margin: 0;
+    padding: 5px 0;
+    padding-left: 8px;
+}
+
+
+#line{
+    font-size: 24px;
+    font-weight: lighter;
+    color: #cecece;
 }
 
 .navlinks a{
     text-decoration: none;
-    margin: 0px 15px;
+    margin: 0px 0px 0 16px;
     color:#222222;
     font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 590;
 }
 
 .navlinks span{
-    margin: 0px 20px;
+    margin: 0px 16px;
     color: rgb(168, 162, 162);
     font-size: 14px;
+}
+
+.add{
+    margin-right: 8px !important;
 }
 
 .navlinks i{
@@ -74,34 +91,33 @@
 
 #fonts a{
     text-decoration: none;
-    margin-right: 23px;
     color: #222222;
     font-size: 14px;
     font-weight: light;
 }
 
-#fonts a:hover{
-    border: 1px solid black;
-    background: rgb(240, 239, 239);
-    transform: scale(1.05);
-    transition: transform .6s ease;
+.become{
     padding: 10px;
     border-radius: 20px;
-    border: none;
+    margin-right: 6px;
 }
 
-#fonts i{
-    margin-right: 20px;
+.become:hover{
+    background: rgb(240, 239, 239);
 }
 
-#fonts i:hover{
-    border: 1px solid black;
-    border: none;
+.globe{
     padding: 10px;
     border-radius: 40px;
+    margin-right: 10px;
+}
+
+ .globe:hover{
     background: rgb(240, 239, 239);
-    transform: scale(1.05);
-    transition: transform .7s ease;
+}
+
+.bars{
+    margin-right: 10px !important;
 }
 
 #link{
@@ -112,7 +128,9 @@
 }
 
 #link:hover{
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+    transform: scale(1.01);
+    transition: transform .6s ease;
 }
 
 #link i{
@@ -526,9 +544,10 @@
 
 #icon {
     position: absolute;
-    left: 30%;
-    top: 21%;
-    font-size: 20px;
+    left: 29%;
+    top: 23%;
+    font-size: 22px;
+    color: #fff;
 }
 
 .card2{
@@ -564,9 +583,9 @@
 
 #icon2 {
     position: absolute;
-    left: 47%;
-    top: 21%;
-    font-size: 20px;
+    left: 46%;
+    top: 23%;
+    font-size: 22px;
     color: #fff;
 }
 
@@ -603,9 +622,10 @@
 
 #icon3{
     position: absolute;
-    left: 65%;
-    top: 21%;
-    font-size: 20px;
+    left: 64%;
+    top: 23%;
+    font-size: 22px;
+    color: #fff;
 }
 
 .card4{
@@ -641,9 +661,9 @@
 
 #icon4{
     position: absolute;
-    left: 82%;
-    top: 21%;
-    font-size: 20px;
+    left: 81%;
+    top: 23%;
+    font-size: 22px;
     color: #fff;
 }
 
@@ -678,11 +698,12 @@
     text-decoration: none;
 }
 
-#icon5 i{
+#icon5 {
     position: absolute;
     left: 66%;
     top: 23%;
-    font-size: 20px;
+    font-size: 22px;
+    color: #fff;
 }
 
 #cardssection{
@@ -1584,5 +1605,8 @@ button i{
         display: none;
     }
     
+    #image4{
+        margin-top: 0;
+    }
     
 }
